@@ -84,14 +84,20 @@ const Main = () => {
                             gap: "12px",
                         }}
                     >
-                        <p style={{ margin: "0" }}>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Quaerat reiciendis neque eius, possimus
-                            excepturi consequuntur, tempore ipsum sunt, autem
-                            laboriosam dolor eos nihil velit veniam laudantium
-                            voluptate recusandae nulla quas.
+                        <p style={{ margin: "0", fontWeight: "200" }}>
+                            Collaborate with other team that handling order
+                            management system. Order Management System or OMS
+                            build with Magento 2 (PHP based), MySQL, Javascript.
+                            OMS crawling data from many e-commerce like
+                            Tokopedia, Shopee, Website, Blibli, etc.
                         </p>
-                        <div className="tech-stack">
+                        <div
+                            className="tech-stack"
+                            style={{
+                                display: "flex",
+                                flexWrap: "wrap-reverse",
+                            }}
+                        >
                             <span className="badge">PHP</span>
                             <span className="badge">Magento 2</span>
                             <span className="badge">Docker</span>
@@ -144,11 +150,19 @@ const Main = () => {
                             laboriosam dolor eos nihil velit veniam laudantium
                             voluptate recusandae nulla quas.
                         </p>
-                        <div className="tech-stack">
+                        <div
+                            className="tech-stack"
+                            style={{
+                                display: "flex",
+                                flexWrap: "wrap-reverse",
+                            }}
+                        >
                             <span className="badge">PHP</span>
-                            <span className="badge">Magento 2</span>
-                            <span className="badge">Docker</span>
+                            <span className="badge">Javascript</span>
+                            <span className="badge">WMHCS</span>
                             <span className="badge">MySQL</span>
+                            <span className="badge">Webpack</span>
+                            <span className="badge">HTML/CSS</span>
                         </div>
                     </div>
                 </div>
@@ -176,7 +190,7 @@ const Main = () => {
                             Codelaris
                         </span>
                         <h5 style={{ margin: "0", color: "gray" }}>
-                            2019 &rarr; 2019
+                            2019-12 &rarr; 2020-02
                         </h5>
                     </div>
                     <div
@@ -197,11 +211,16 @@ const Main = () => {
                             laboriosam dolor eos nihil velit veniam laudantium
                             voluptate recusandae nulla quas.
                         </p>
-                        <div className="tech-stack">
+                        <div
+                            className="tech-stack"
+                            style={{
+                                display: "flex",
+                                flexWrap: "wrap-reverse",
+                            }}
+                        >
                             <span className="badge">PHP</span>
-                            <span className="badge">Magento 2</span>
-                            <span className="badge">Docker</span>
-                            <span className="badge">MySQL</span>
+                            <span className="badge">Javascript</span>
+                            <span className="badge">Webpack</span>
                         </div>
                     </div>
                 </div>

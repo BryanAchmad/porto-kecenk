@@ -13,7 +13,7 @@ export default function Nav() {
                 });
             },
             {
-                rootMargin: "0% 0px 0% 0px",
+                rootMargin: "-100% 0px -100% 0px",
             }
         );
 

@@ -14,16 +14,22 @@ const Header = () => {
             }}
         >
             <div style={{ paddingTop: "80px" }}>
-                <div className="personal-desc">
+                <div
+                    className="personal-desc"
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        gap: "8px",
+                    }}
+                >
                     {/* <span style={{ fontSize: "56px" }}></span> */}
                     <h1 style={{ margin: "0" }}>
                         Bryan <span>Aulya Achmad</span>
                     </h1>
-
-                    <h2 style={{ color: "gray" }}>
+                    <span style={{ fontWeight: "400", fontSize: "24px" }}>
                         Software Engineer in somewhere only we know.
-                    </h2>
-                    <p>
+                    </span>
+                    <p style={{ margin: "0", color: "gray" }}>
                         a peacefull programmer who creates products that work
                         perfectly, joy to use and have an amazing knack for
                         solving complex problems and can bring their visions to
