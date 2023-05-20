@@ -23,7 +23,12 @@ const Header = () => {
                     <h2 style={{ color: "gray" }}>
                         Software Engineer in somewhere only we know.
                     </h2>
-                    <p>Software Engineer comes from Malang, Indonesia.</p>
+                    <p>
+                        a peacefull programmer who creates products that work
+                        perfectly, joy to use and have an amazing knack for
+                        solving complex problems and can bring their visions to
+                        life with precision and efficiency
+                    </p>
                 </div>
                 <Nav />
                 {/* <nav style={{ marginTop: "80px" }}>

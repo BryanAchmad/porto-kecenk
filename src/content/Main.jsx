@@ -56,25 +56,35 @@ const Main = () => {
                 >
                     <div
                         className="date-experience"
-                        style={{ flexBasis: "30%" }}
-                    >
-                        <span>2021 - now</span>
-                    </div>
-                    <div
-                        className="desc-experience"
                         style={{
-                            flexBasis: "70%",
-                            margin: "0 auto",
-                            padding: "0",
+                            flexBasis: "35%",
+                            display: "flex",
+                            flexDirection: "column",
+                            gap: "4px",
                         }}
                     >
                         <h4 style={{ margin: "0" }}>
                             <strong>Software Engineer</strong>
                         </h4>
-                        <h6 style={{ margin: "0", color: "lightgrey" }}>
+                        <span style={{ margin: "0", fontWeight: "400" }}>
                             ICUBE
-                        </h6>
-                        <p>
+                        </span>
+                        <h5 style={{ margin: "0", color: "gray" }}>
+                            2021 &rarr; now
+                        </h5>
+                    </div>
+                    <div
+                        className="desc-experience"
+                        style={{
+                            flexBasis: "65%",
+                            margin: "0 auto",
+                            padding: "0",
+                            display: "flex",
+                            flexDirection: "column",
+                            gap: "12px",
+                        }}
+                    >
+                        <p style={{ margin: "0" }}>
                             Lorem ipsum dolor sit amet consectetur, adipisicing
                             elit. Quaerat reiciendis neque eius, possimus
                             excepturi consequuntur, tempore ipsum sunt, autem
@@ -99,43 +109,46 @@ const Main = () => {
                 >
                     <div
                         className="date-experience"
-                        style={{ flexBasis: "30%" }}
-                    >
-                        <span>2021</span>
-                    </div>
-                    <div
-                        className="desc-experience"
                         style={{
-                            flexBasis: "70%",
-                            margin: "0 auto",
-                            padding: "0",
+                            flexBasis: "35%",
+                            display: "flex",
+                            flexDirection: "column",
+                            gap: "4px",
                         }}
                     >
                         <h4 style={{ margin: "0" }}>
                             <strong>Fullstack Developer</strong>
                         </h4>
-                        <h6 style={{ margin: "0", color: "lightgrey" }}>
+                        <span style={{ margin: "0", fontWeight: "400" }}>
                             Jagoan Hosting
-                        </h6>
-                        <p>
+                        </span>
+                        <h5 style={{ margin: "0", color: "gray" }}>
+                            2021-04 &rarr; 2021-07
+                        </h5>
+                    </div>
+                    <div
+                        className="desc-experience"
+                        style={{
+                            flexBasis: "65%",
+                            margin: "0 auto",
+                            padding: "0",
+                            display: "flex",
+                            flexDirection: "column",
+                            gap: "12px",
+                        }}
+                    >
+                        <p style={{ margin: "0" }}>
                             Lorem ipsum dolor sit amet consectetur, adipisicing
                             elit. Quaerat reiciendis neque eius, possimus
                             excepturi consequuntur, tempore ipsum sunt, autem
                             laboriosam dolor eos nihil velit veniam laudantium
                             voluptate recusandae nulla quas.
                         </p>
-                        <div
-                            className="tech-stack"
-                            style={{
-                                display: "flex",
-                                flexWrap: "wrap",
-                            }}
-                        >
-                            <span className="badge">Javascript</span>
-                            <span className="badge">WHMCS</span>
-                            <span className="badge">Webpack</span>
-                            <span className="badge">HTML/CSS</span>
-                            <span className="badge">JQuery</span>
+                        <div className="tech-stack">
+                            <span className="badge">PHP</span>
+                            <span className="badge">Magento 2</span>
+                            <span className="badge">Docker</span>
+                            <span className="badge">MySQL</span>
                         </div>
                     </div>
                 </div>
@@ -149,25 +162,35 @@ const Main = () => {
                 >
                     <div
                         className="date-experience"
-                        style={{ flexBasis: "30%" }}
-                    >
-                        <span>2019</span>
-                    </div>
-                    <div
-                        className="desc-experience"
                         style={{
-                            flexBasis: "70%",
-                            margin: "0 auto",
-                            padding: "0",
+                            flexBasis: "35%",
+                            display: "flex",
+                            flexDirection: "column",
+                            gap: "4px",
                         }}
                     >
                         <h4 style={{ margin: "0" }}>
                             <strong>Software Engineer</strong>
                         </h4>
-                        <h6 style={{ margin: "0", color: "lightgrey" }}>
+                        <span style={{ margin: "0", fontWeight: "400" }}>
                             Codelaris
-                        </h6>
-                        <p>
+                        </span>
+                        <h5 style={{ margin: "0", color: "gray" }}>
+                            2019 &rarr; 2019
+                        </h5>
+                    </div>
+                    <div
+                        className="desc-experience"
+                        style={{
+                            flexBasis: "65%",
+                            margin: "0 auto",
+                            padding: "0",
+                            display: "flex",
+                            flexDirection: "column",
+                            gap: "12px",
+                        }}
+                    >
+                        <p style={{ margin: "0" }}>
                             Lorem ipsum dolor sit amet consectetur, adipisicing
                             elit. Quaerat reiciendis neque eius, possimus
                             excepturi consequuntur, tempore ipsum sunt, autem
@@ -176,8 +199,9 @@ const Main = () => {
                         </p>
                         <div className="tech-stack">
                             <span className="badge">PHP</span>
-                            <span className="badge">Javascript</span>
-                            <span className="badge">Webpack</span>
+                            <span className="badge">Magento 2</span>
+                            <span className="badge">Docker</span>
+                            <span className="badge">MySQL</span>
                         </div>
                     </div>
                 </div>
