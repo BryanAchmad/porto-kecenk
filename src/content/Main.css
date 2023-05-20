@@ -1,0 +1,27 @@
+.content-experience {
+    padding: 20px;
+}
+
+.content-experience:hover {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.3px);
+    -webkit-backdrop-filter: blur(4.3px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    transition: background 0.5s ease;
+}
+.tech-stack {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.badge {
+    background-color: gray;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
