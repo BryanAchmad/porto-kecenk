@@ -27,6 +27,9 @@ ul li a {
     color: lightblue;
 }
 
+ul li a:hover {
+    color: lightblue;
+}
 svg {
     fill: white;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Main.css";
+import Portfolio from "./section/Portfolio";
 
 const Main = () => {
     return (
@@ -11,10 +12,10 @@ const Main = () => {
                 overflowY: "auto",
                 display: "flex",
                 flexDirection: "column",
-                gap: "100px",
+                gap: "40px",
             }}
         >
-            <div
+            <section
                 className="description"
                 id="about"
                 style={{
@@ -26,27 +27,17 @@ const Main = () => {
                 <span> The bad the good and the kepentingan kepentingan</span>{" "}
                 sudah sex belum hari ini?
                 <p>
-                    Back in 2012, I decided to try my hand at creating custom
-                    Tumblr themes and tumbled head first into the rabbit hole of
-                    coding and web development. Fast-forward to today, and I’ve
-                    had the privilege of building software for an advertising
-                    agency, a start-up, a student-led design studio, and a huge
-                    corporation.
+                    Hey there! I'm a programmer from Malang, Indonesia, and I
+                    absolutely love diving into new things. I thrive on
+                    challenges that push me to my limits because they keep me
+                    motivated and engaged. On the flip side, I easily get bored
+                    with mundane or repetitive tasks. But you know what? That
+                    boredom drives me to find innovative solutions and approach
+                    problems from unique angles. So, I'm always up for new and
+                    exciting projects that keep me on my toes!
                 </p>
-                <p>
-                    My main focus these days is building products and leading
-                    projects for our clients at Upstatement. In my free time
-                    I've also released an online video course that covers
-                    everything you need to know to build a web app with the
-                    Spotify API.
-                </p>
-                <p>
-                    When I’m not at the computer, I’m usually rock climbing,
-                    hanging out with my wife and two cats, or running around
-                    Hyrule searching forKorok seeds K o r o k s e e d s .
-                </p>
-            </div>
-            <div
+            </section>
+            <section
                 className="experience"
                 id="experience"
                 style={{
@@ -56,7 +47,7 @@ const Main = () => {
                 }}
             >
                 <div
-                    className="content-experience first-experience"
+                    className="card content-experience first-experience"
                     style={{
                         display: "flex",
                         flexDirection: "row",
@@ -67,7 +58,7 @@ const Main = () => {
                         className="date-experience"
                         style={{ flexBasis: "30%" }}
                     >
-                        <span>2022-20-11</span>
+                        <span>2021 - now</span>
                     </div>
                     <div
                         className="desc-experience"
@@ -78,7 +69,7 @@ const Main = () => {
                         }}
                     >
                         <h4 style={{ margin: "0" }}>
-                            <strong>Fullstack Software Engineer</strong>
+                            <strong>Software Engineer</strong>
                         </h4>
                         <h6 style={{ margin: "0", color: "lightgrey" }}>
                             ICUBE
@@ -99,7 +90,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div
-                    className="content-experience first-experience"
+                    className="card content-experience first-experience"
                     style={{
                         display: "flex",
                         flexDirection: "row",
@@ -110,7 +101,7 @@ const Main = () => {
                         className="date-experience"
                         style={{ flexBasis: "30%" }}
                     >
-                        <span>2022-20-11</span>
+                        <span>2021</span>
                     </div>
                     <div
                         className="desc-experience"
@@ -121,10 +112,10 @@ const Main = () => {
                         }}
                     >
                         <h4 style={{ margin: "0" }}>
-                            <strong>Fullstack Software Engineer</strong>
+                            <strong>Fullstack Developer</strong>
                         </h4>
                         <h6 style={{ margin: "0", color: "lightgrey" }}>
-                            ICUBE
+                            Jagoan Hosting
                         </h6>
                         <p>
                             Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -133,16 +124,23 @@ const Main = () => {
                             laboriosam dolor eos nihil velit veniam laudantium
                             voluptate recusandae nulla quas.
                         </p>
-                        <div className="tech-stack">
-                            <span className="badge">PHP</span>
-                            <span className="badge">Magento 2</span>
-                            <span className="badge">Docker</span>
-                            <span className="badge">MySQL</span>
+                        <div
+                            className="tech-stack"
+                            style={{
+                                display: "flex",
+                                flexWrap: "wrap",
+                            }}
+                        >
+                            <span className="badge">Javascript</span>
+                            <span className="badge">WHMCS</span>
+                            <span className="badge">Webpack</span>
+                            <span className="badge">HTML/CSS</span>
+                            <span className="badge">JQuery</span>
                         </div>
                     </div>
                 </div>
                 <div
-                    className="content-experience first-experience"
+                    className="card content-experience first-experience"
                     style={{
                         display: "flex",
                         flexDirection: "row",
@@ -153,7 +151,7 @@ const Main = () => {
                         className="date-experience"
                         style={{ flexBasis: "30%" }}
                     >
-                        <span>2022-20-11</span>
+                        <span>2019</span>
                     </div>
                     <div
                         className="desc-experience"
@@ -164,10 +162,10 @@ const Main = () => {
                         }}
                     >
                         <h4 style={{ margin: "0" }}>
-                            <strong>Fullstack Software Engineer</strong>
+                            <strong>Software Engineer</strong>
                         </h4>
                         <h6 style={{ margin: "0", color: "lightgrey" }}>
-                            ICUBE
+                            Codelaris
                         </h6>
                         <p>
                             Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -178,13 +176,13 @@ const Main = () => {
                         </p>
                         <div className="tech-stack">
                             <span className="badge">PHP</span>
-                            <span className="badge">Magento 2</span>
-                            <span className="badge">Docker</span>
-                            <span className="badge">MySQL</span>
+                            <span className="badge">Javascript</span>
+                            <span className="badge">Webpack</span>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
+            <Portfolio />
         </div>
     );
 };

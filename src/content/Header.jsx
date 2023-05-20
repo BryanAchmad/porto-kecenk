@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import Nav from "./component/Nav";
 
 const Header = () => {
     return (
@@ -14,17 +15,18 @@ const Header = () => {
         >
             <div style={{ paddingTop: "80px" }}>
                 <div className="personal-desc">
+                    {/* <span style={{ fontSize: "56px" }}></span> */}
                     <h1 style={{ margin: "0" }}>
-                        Bryan Aulya Achmad Istighfara
+                        Bryan <span>Aulya Achmad</span>
                     </h1>
-                    <h2>Software Engineer in Somewhere u dont need to know</h2>
-                    <p>
-                        Software Engineer comes from Malang, Indonesia. 🖤 to
-                        learn something new. able to discuss in every piece of
-                        something
-                    </p>
+
+                    <h2 style={{ color: "gray" }}>
+                        Software Engineer in somewhere only we know.
+                    </h2>
+                    <p>Software Engineer comes from Malang, Indonesia.</p>
                 </div>
-                <nav style={{ marginTop: "80px" }}>
+                <Nav />
+                {/* <nav style={{ marginTop: "80px" }}>
                     <ul
                         style={{
                             display: "flex",
@@ -47,13 +49,13 @@ const Header = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="#education">
+                            <a href="#portfolio">
                                 <span className="nav-indicator"></span>
-                                <span className="">Education</span>
+                                <span className="">Portfolio</span>
                             </a>
                         </li>
                     </ul>
-                </nav>
+                </nav> */}
                 {/* <div class="container" style={{ display: flex, height: "100vh" }}> */}
 
                 {/* <div class="content" style={{ flex: "50%" }}>
