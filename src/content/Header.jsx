@@ -6,20 +6,25 @@ const Header = () => {
         <header
             style={{
                 flexBasis: "50%",
-                padding: "20px",
                 display: "flex",
+                padding: "20px",
                 flexDirection: "column",
                 justifyContent: "space-between",
             }}
         >
-            <div style={{ paddingTop: "200px" }}>
-                <h1>Bryan Aulya Achmad Istighfara</h1>
-                <h2>Software Engineer in Somewhere u dont need to know</h2>
-                <p>
-                    Software Engineer comes from Malang, Indonesia. 🖤 to learn
-                    something new. able to discuss in every piece of something
-                </p>
-                <nav style={{ marginTop: "20px" }}>
+            <div style={{ paddingTop: "80px" }}>
+                <div className="personal-desc">
+                    <h1 style={{ margin: "0" }}>
+                        Bryan Aulya Achmad Istighfara
+                    </h1>
+                    <h2>Software Engineer in Somewhere u dont need to know</h2>
+                    <p>
+                        Software Engineer comes from Malang, Indonesia. 🖤 to
+                        learn something new. able to discuss in every piece of
+                        something
+                    </p>
+                </div>
+                <nav style={{ marginTop: "80px" }}>
                     <ul
                         style={{
                             display: "flex",
@@ -70,7 +75,7 @@ const Header = () => {
                     padding: "0",
                     display: "flex",
                     flexDirection: "row",
-                    gap: "8px",
+                    gap: "20px",
                 }}
             >
                 <li>

@@ -4,6 +4,7 @@ import "./Main.css";
 const Main = () => {
     return (
         <div
+            className="main-content"
             style={{
                 flexBasis: "50%",
                 padding: "20px",
@@ -16,7 +17,11 @@ const Main = () => {
             <div
                 className="description"
                 id="about"
-                style={{ paddingTop: "200px" }}
+                style={{
+                    paddingTop: "80px",
+                    paddingRight: "20px",
+                    paddingLeft: "20px",
+                }}
             >
                 <span> The bad the good and the kepentingan kepentingan</span>{" "}
                 sudah sex belum hari ini?
@@ -42,7 +47,8 @@ const Main = () => {
                 </p>
             </div>
             <div
-                className="experience" id="experience"
+                className="experience"
+                id="experience"
                 style={{
                     display: "flex",
                     flexDirection: "column",
@@ -127,6 +133,12 @@ const Main = () => {
                             laboriosam dolor eos nihil velit veniam laudantium
                             voluptate recusandae nulla quas.
                         </p>
+                        <div className="tech-stack">
+                            <span className="badge">PHP</span>
+                            <span className="badge">Magento 2</span>
+                            <span className="badge">Docker</span>
+                            <span className="badge">MySQL</span>
+                        </div>
                     </div>
                 </div>
                 <div
@@ -164,6 +176,12 @@ const Main = () => {
                             laboriosam dolor eos nihil velit veniam laudantium
                             voluptate recusandae nulla quas.
                         </p>
+                        <div className="tech-stack">
+                            <span className="badge">PHP</span>
+                            <span className="badge">Magento 2</span>
+                            <span className="badge">Docker</span>
+                            <span className="badge">MySQL</span>
+                        </div>
                     </div>
                 </div>
             </div>

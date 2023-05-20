@@ -12,6 +12,7 @@ function App() {
                     display: "flex",
                     margin: "0 auto",
                     height: "100vh",
+                    gap: "80px",
                 }}
             >
                 {/* asdasdasda */}
